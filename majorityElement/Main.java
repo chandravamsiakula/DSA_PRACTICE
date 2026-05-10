@@ -1,24 +1,5 @@
 import java.util.*;
 class Main{
-    public static boolean twoSum(int[] a,int target) {
-        Arrays.sort(a);
-        int n = a.length;
-        int l=0,r=n-1;
-        while(l<r){
-            int s = a[l] + a[r];
-            if(s == target){
-                return true;
-            }
-            else if(s < target){
-                l++;
-            }
-            else{
-                r--;
-            }
-        }
-        return false;
-    }
-
     public static int majorityElement(int[] arr){
         int n = arr.length;
         Arrays.sort(arr);
