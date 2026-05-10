@@ -28,6 +28,5 @@ class Main {
             System.out.println("True");
         else
             System.out.println("False");
-        cs1.close();
     }
 }
